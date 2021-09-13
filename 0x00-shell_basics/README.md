@@ -46,3 +46,6 @@ File 14-copy_html;
 File 100-lets_move;
      This file moves all files beginning with an uppercase letter to the directory /tmp/u.
 
+File 101-clean_emacs;
+     This file deletes all files in the current directory that end with "~".
+
