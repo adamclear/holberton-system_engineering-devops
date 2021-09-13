@@ -49,3 +49,6 @@ File 100-lets_move;
 File 101-clean_emacs;
      This file deletes all files in the current directory that end with "~".
 
+File 102-tree;
+     This file creates the directories "welcome/", "welcome/to/", & "welcome/to/school" in the current directory.
+
