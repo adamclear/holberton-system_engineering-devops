@@ -1,2 +1,2 @@
 #!/bin/bash
-alias file='grep -r "SCHOOL" *'
+alias file= grep -r "SCHOOL"
