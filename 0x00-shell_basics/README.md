@@ -12,3 +12,7 @@ File 3-listfiles;
 
 File 4-listmorefiles;
      This file lists the current directory contents, including hidden files, in long format.
+
+File 5-listfilesdigitonly;
+     This file lists the current directory contents, including hidden files, in long format, with user & group IDs displayed numerically.
+
