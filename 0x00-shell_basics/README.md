@@ -16,3 +16,6 @@ File 4-listmorefiles;
 File 5-listfilesdigitonly;
      This file lists the current directory contents, including hidden files, in long format, with user & group IDs displayed numerically.
 
+File 6-firstdirectory;
+     This file creates a sub-directory named "my_first_directory" in the /tmp directory.
+
