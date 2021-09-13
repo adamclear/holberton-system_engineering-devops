@@ -33,3 +33,7 @@ File 10-back;
 
 File 11-lists;
      This file lists all files, including hidden files, in the current directory, the parent of the current directory, and the /boot directory. In that order.
+
+File 12-file_type;
+     This file prints the type of file for the file "iamafile" in the /tmp directory.
+
