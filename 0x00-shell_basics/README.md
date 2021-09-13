@@ -31,3 +31,5 @@ File 9-firstdirdeletion;
 File 10-back;
      This file changes the working directory to the previous one.
 
+File 11-lists;
+     This file lists all files, including hidden files, in the current directory, the parent of the current directory, and the /boot directory. In that order.
