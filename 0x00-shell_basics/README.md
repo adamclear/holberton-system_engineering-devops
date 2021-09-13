@@ -24,3 +24,7 @@ File 7-movethatfile;
 
 File 8-firstdelete;
      This file deletes the file named "betty" from the /tmp/my_first_directory folder.
+
+File 9-firstdirdeletion;
+     This file deletes the directory /tmp/my_first_directory.
+
