@@ -10,3 +10,5 @@ File 2-bring_me_home;
 File 3-listfiles;
      This file lists the current directory contents in long format.
 
+File 4-listmorefiles;
+     This file lists the current directory contents, including hidden files, in long format.
