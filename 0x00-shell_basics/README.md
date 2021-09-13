@@ -37,3 +37,9 @@ File 11-lists;
 File 12-file_type;
      This file prints the type of file for the file "iamafile" in the /tmp directory.
 
+File 13-symbolic_link;
+     This file creates a symbolic link between /bin/ls and the softlink "__ls__".
+
+File 14-copy_html;
+     This file copies all the HTML files that don't exist or are newer than the versions in the parent directory from the working directory to the parent of the working directory.
+
