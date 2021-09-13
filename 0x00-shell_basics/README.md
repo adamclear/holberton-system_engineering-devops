@@ -28,3 +28,6 @@ File 8-firstdelete;
 File 9-firstdirdeletion;
      This file deletes the directory /tmp/my_first_directory.
 
+File 10-back;
+     This file changes the working directory to the previous one.
+
