@@ -20,5 +20,7 @@ File 6-firstdirectory;
      This file creates a sub-directory named "my_first_directory" in the /tmp directory.
 
 File 7-movethatfile;
-     This file moved the file named "Betty" from /tmp to /tmp/my_first_directory.
+     This file moves the file named "betty" from /tmp to /tmp/my_first_directory.
 
+File 8-firstdelete;
+     This file deletes the file named "betty" from the /tmp/my_first_directory folder.
