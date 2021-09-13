@@ -43,3 +43,6 @@ File 13-symbolic_link;
 File 14-copy_html;
      This file copies all the HTML files that don't exist or are newer than the versions in the parent directory from the working directory to the parent of the working directory.
 
+File 100-lets_move;
+     This file moves all files beginning with an uppercase letter to the directory /tmp/u.
+
