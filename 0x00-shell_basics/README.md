@@ -19,3 +19,6 @@ File 5-listfilesdigitonly;
 File 6-firstdirectory;
      This file creates a sub-directory named "my_first_directory" in the /tmp directory.
 
+File 7-movethatfile;
+     This file moved the file named "Betty" from /tmp to /tmp/my_first_directory.
+
