@@ -4,6 +4,9 @@ File 0-current_working_directory;
 File 1-listit;
      This file prints the contents of the current directory.
 
-File 2-bring_me_home
+File 2-bring_me_home;
      This file moves you to the home directory.
+
+File 3-listfiles;
+     This file lists the current directory contents in long format.
 
