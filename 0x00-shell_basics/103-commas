@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mad | sed 's/*//g'
+ls -maF | sed 's/*//g'
