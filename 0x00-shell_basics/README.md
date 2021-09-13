@@ -52,3 +52,5 @@ File 101-clean_emacs;
 File 102-tree;
      This file creates the directories "welcome/", "welcome/to/", & "welcome/to/school" in the current directory.
 
+File 103-commas;
+     This file lists all the files and directories in the current directory, separated by commas, and in alpha order.
