@@ -54,3 +54,6 @@ File 102-tree;
 
 File 103-commas;
      This file lists all the files and directories in the current directory, separated by commas, and in alpha order.
+
+File school.mgc;
+     This file can be used with the command file to detect School data files.
