@@ -1,2 +1,2 @@
 #!/bin/bash
-alias file="find -r */ -type f | grep -r SCHOOL"
+alias file="grep -r 'SCHOOL'"
