@@ -25,3 +25,18 @@ File 7-everybody;
 File 8-James_Bond;
      This file removes all permissions for the owner and group, and gives other users all permissions to the file "hello".
 
+File 9-John_Doe;
+     This file sets the mode of hello to 753.
+
+File 10-mirror_permissions;
+     This file sets the mode of hello to the same as file "olleh".
+
+File 11-directories_permissions;
+     This file adds execute permissions to all subdirectories of the current directory.
+
+File 12-directory_permissions;
+     This file creates a directory "my_dir" with permissions set to 751.
+
+File 13-change_group;
+     This file changes the group owner for hello to school.
+     
