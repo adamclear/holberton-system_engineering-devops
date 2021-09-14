@@ -1,2 +1,2 @@
 #!/bin/bash
-0 search SCHOOL printf(3)
+0 search SCHOOL !:mime text/x-23
