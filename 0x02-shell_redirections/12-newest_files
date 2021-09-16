@@ -1,3 +1,2 @@
 #!/bin/bash
-find . -type f | ls -t | head 
-
+ls -t | grep -v '^d' | head
