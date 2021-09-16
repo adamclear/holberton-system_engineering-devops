@@ -1,3 +1,2 @@
 #!/bin/bash
-less /etc/passwd > twofiles | less /etc/hosts >> twofiles | cat twofiles
-
+cat /etc/passwd /etc/hosts
