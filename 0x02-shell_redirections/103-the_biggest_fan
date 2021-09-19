@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d, --complement -f 1,7 | rev | sort -n | rev | cut -f2 | head -n 11 | column -t
+rev | sort -nr | rev | cut -d, -f2-7 | head -n 11 | column -t
