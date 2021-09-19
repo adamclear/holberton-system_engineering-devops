@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -d '	' -f1,6 -- complement | rev | sort -n | rev | head -n 11
