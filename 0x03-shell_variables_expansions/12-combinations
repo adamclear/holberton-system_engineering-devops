@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a-z}{a-z} | tr "[:space:]" "\n" > combo | grep -v "oo" combo > combo1 | cat combo1
+echo {a..z}{a..z}$'\n' | grep -v "oo"
