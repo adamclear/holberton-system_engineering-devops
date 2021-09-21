@@ -1,2 +1,2 @@
 #!/bin/bash
-> odd | 
+paste - - | cut -f1
