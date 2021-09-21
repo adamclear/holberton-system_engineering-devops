@@ -1,0 +1,8 @@
+host	logname	time	method	url	response	bytes	referer useragent
+larry	-	800000001	GET	/images/launch	200	200
+larry	-	800000002	GET	/images/launch	200	225
+larry	-	800000000	GET /images/launch-logo	200	25
+barry	-	800000000	GET /images/launch-logo	200	50
+carrie	-	800000000	GET /images/launch-logo	200	75
+harry	-	800000000	GET /images/launch-logo	200	100
+harry	-	800000000	GET /images/launch	200	250
