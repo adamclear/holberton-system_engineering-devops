@@ -1,2 +1,2 @@
 #!/bin/bash
-rev | sort -nr | rev | cut -d$'\t' -f 1 | column -t | head -n 11
+rev | sort -nr | rev | cut -d$'\t' -f 1 | head -n 11
