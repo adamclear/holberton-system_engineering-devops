@@ -7,3 +7,6 @@ bettong.client.uq.oz.au	-	807256884	GET	/history/skylab/skylab.html	200	1687
 202.236.34.35	-	807256884	GET	/images/whatsnew.gif	200	651
 202.236.34.35	-	807256885	GET	/images/KSC-logosmall.gif	200	1204
 bettong.client.uq.oz.au	-	807256900	GET	/history/skylab/skylab.html	304	0
+wordup			-	807256888	GET	/history/skylab/skylab.html	200	343
+doubleword		-	807256889	GET	/shuttle/missions		200	622
+tripleword		-	807256887	GET	/images/whatsnew.gif		200	1000
