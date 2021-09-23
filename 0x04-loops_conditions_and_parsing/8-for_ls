@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# This script lists the contents of the current directory without the information in the file names before the first "-#+ " character.
+# This script lists the contents of the current directory without the information in the file names before the first "-" character.
 
-for i in 1;
-    do
-	ls | cut -d '-' -f2-
+for i in *;
+do
+
+    echo "$i" | cut -d '-' -f2-
 
 done
