@@ -7,5 +7,5 @@ until [ $x -eq 11 ]
 
 do
 	echo "Holberton School"
-	x=$(( $x + 1 ))
+	x=$(( x + 1 ))
 done
