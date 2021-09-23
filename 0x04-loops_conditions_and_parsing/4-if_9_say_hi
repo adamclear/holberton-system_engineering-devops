@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script displays "Holberton School" 10 times, but on the 9th iteration it also displays "Hi" on a new line.
+
+x="1"
+
+while [ $x -le 10 ]
+
+do
+	echo "Holberton School"
+
+	     if [ $x -eq 9 ]
+	     	then
+			echo "Hi"
+		fi
+	x=$(( $x + 1 ))
+	     
+done
