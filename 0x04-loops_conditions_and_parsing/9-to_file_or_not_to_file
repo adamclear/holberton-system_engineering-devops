@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script gives you information about the "holbertonschool" file. Namely, if it exists, and if it does whethertit is empty, not empty, and if it is a regular file.
+# This script gives you information about the "holbertonschool" file. Namely, if it exists, and if it does whether it is empty, not empty, and if it is a regular file.
 
 if [ -e holbertonschool ]
    then
