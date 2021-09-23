@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script kills file 4 without using kill or killall
 
-pkill -f --signal SIGKILL "4-to_infinity_and_beyond"
+pkill -f "4-to_infinity_and_beyond"
