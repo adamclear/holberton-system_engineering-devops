@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script kills the process of file 4.
 
-BUZZKILL=$(pidof -x 4-to_infinity_and_beyond)
+BUZZKILL=$(pgrep -f 4-to_infinity_and_beyond)
 
-kill -9 $BUZZKILL
+kill $BUZZKILL
