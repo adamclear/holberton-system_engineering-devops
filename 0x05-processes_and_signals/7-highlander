@@ -4,7 +4,8 @@
 BUZZ="1"
 
 while [ $BUZZ != 0 ]
-      do
+do
+    
 	echo "To infinity and beyond"
 
 	sleep 2
