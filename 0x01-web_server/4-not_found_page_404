@@ -3,7 +3,7 @@
 sudo apt-get -y update
 sudo apt-get install -y nginx
 sudo ufw allow 'Nginx HTTP'
-sudo sh -c 'echo "Hello World!" > /var/www/html/index.html'
+sudo sh -c 'echo "Hello World" > /var/www/html/index.html'
 sudo sh -c "echo Ceci n\'est pas une page > /var/www/html/error404.html"
 target="^\tlocation / {"
 replace="\tlocation /redirect_me {\n\t\treturn 301 \$scheme://dndbeyond.com;\n\t}\n\n\tlocation / {"
