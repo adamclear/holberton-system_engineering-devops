@@ -4,9 +4,8 @@
 sudo apt-get -y update
 sudo apt-get install -y nginx
 sudo ufw allow 'Nginx HTTP'
-sudo sh -c 'echo "Hello World" > /var/www/html/index.html'
-newlines="/redirect_me https://www.dndbeyond.com permanent;"
-target="^tlocation / {"
+sudo sh -c 'echo "Hello World!" > /var/www/html/index.html'
+target="^\tlocation / {"
 replace="\tlocation /redirect_me {\n\t\treturn 301 \$scheme://dndbeyond.com;\n\t}\n\n\tlocation / {"
-sudo sed -i "s@target@replace@" /etc/nginx/sites-available/default
+sudo sed -i "s@$target@$replace@" /etc/nginx/sites-available/default
 sudo service nginx restart
