@@ -9,6 +9,6 @@ target="^\tlocation / {"
 replace="\tlocation /redirect_me {\n\t\treturn 301 \$scheme://dndbeyond.com;\n\t}\n\n\tlocation / {"
 sudo sed -i "s@$target@$replace@" /etc/nginx/sites-available/default
 target="^\tlocation / {"
-replace="\tlocation /error_page 404 /error404.html;\n\n\tlocation / {"
+replace="\terror_page 404 /error404.html;\n\n\tlocation / {"
 sudo sed -i "s@$target@$replace@" /etc/nginx/sites-available/default
 sudo service nginx restart
