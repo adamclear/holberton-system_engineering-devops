@@ -3,6 +3,7 @@
 
 # run update and install nginx
 sudo apt-get -y update
+sudo apt-get -y upgrade
 sudo apt-get install -y nginx
 
 # change firewall to allow nginx
