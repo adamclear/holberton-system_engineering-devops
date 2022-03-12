@@ -1,8 +1,15 @@
 #!/usr/bin/env bash
 # Sets up Nginx server with an html file
 
+# run update and install nginx
 sudo apt-get -y update
 sudo apt-get install -y nginx
+
+# change firewall to allow nginx
 sudo ufw allow 'Nginx HTTP'
+
+# create file index.html in 
 sudo sh -c 'echo "Hello World" > /var/www/html/index.html'
+
+# start the nginx service
 sudo service nginx start
