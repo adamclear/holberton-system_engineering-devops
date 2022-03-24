@@ -2,7 +2,8 @@
 """
 This method takes an employee id number and returns the
 number of tasks done compared to the total number of tasks,
-and lists the titles of the tasks completed.
+and lists the titles of the tasks completed. Then it saves the
+task information for that user into a .csv file.
 """
 import csv
 import requests
