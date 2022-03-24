@@ -9,7 +9,10 @@ import requests
 
 
 if __name__ == '__main__':
+    # check for valid input, argument passed must be type int #
     if sys.argv[1].isdigit():
+
+        # assign values to variables #
         user_id = sys.argv[1]
         employee = requests.get(
             "https://jsonplaceholder.typicode.com/users/{}"
@@ -21,6 +24,8 @@ if __name__ == '__main__':
         for done in to_do:
             if done.get("completed") is True:
                 completed.append(done.get("title"))
+
+        # print requested outputs #
         print("Employee {} is done with tasks ({}/{}):".format(
             employee.get("name"), len(completed), len(to_do)))
         for title in completed:
