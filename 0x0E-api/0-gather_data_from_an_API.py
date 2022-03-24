@@ -4,8 +4,8 @@ This method takes an employee id number and returns the
 number of tasks done compared to the total number of tasks,
 and lists the titles of the tasks completed.
 """
-import sys
 import requests
+import sys
 
 
 if __name__ == '__main__':
