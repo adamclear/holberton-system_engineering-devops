@@ -28,7 +28,7 @@ if __name__ == '__main__':
                 completed.append(done.get("title"))
 
         # print requested outputs #
-        print("Employee {} is done with tasks ({}/{}):".format(
+        print("Employee {} is done with tasks({}/{}):".format(
             employee.get("name"), len(completed), len(to_do)))
         for title in completed:
             print("\t {}".format(title))
