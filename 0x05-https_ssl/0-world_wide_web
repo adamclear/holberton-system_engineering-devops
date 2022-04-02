@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# this script retrieves dns info #
+
+if [ $# -eq 1 ]; then
+    domain="www.$1 lb-01.$1 web-01.$1 web-02.$1"
+else
+    domain="$2.$1"
+fi
+
+dig $domain | awk '/ANSWER SECTION/{getline; split($1,sd,"."); print "The subdomain", sd[1], "is a", $4, "record and points to", $5}'
